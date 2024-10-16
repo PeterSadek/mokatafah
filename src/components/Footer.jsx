@@ -33,7 +33,7 @@ const Footer = () => {
         sx={{
           padding: "2rem",
           background:
-            "linear-gradient(to bottom right, rgba(9, 106, 56, 0.5), rgba(207, 183, 78, 0.1))",
+            "linear-gradient(to bottom right, rgba(9, 106, 56, 0.3), rgba(207, 183, 78, 0.1))",
         }}
         id="تواصل معنا"
       >

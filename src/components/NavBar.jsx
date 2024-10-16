@@ -60,10 +60,7 @@ function NavBar() {
     <AppBar
       position="fixed"
       sx={{
-        backgroundColor:
-          scrollPosition > 50
-            ? "rgba(151, 128, 48, 0.3)"
-            : theme.palette.gold.dark,
+        backgroundColor: scrollPosition > 50 ? "transparent" : "transparent",
         transition: "background-color 0.3s ease",
         paddingInline: { md: "2rem", xs: 0 },
       }}

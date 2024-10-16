@@ -10,15 +10,14 @@ const Header = () => {
         height: "100vh",
         position: "relative",
         overflow: "hidden",
-        backgroundColor: "#e0e0e0",
       }}
       id="الرئيسية"
     >
       <Box
         sx={{
           backgroundImage: {
-            md: `linear-gradient(to bottom right, rgba(9, 106, 56, 0.5), rgba(207, 183, 78, 0.1)), url(${heroImage2})`,
-            xs: `linear-gradient(to bottom right, rgba(9, 106, 56, 0.5), rgba(207, 183, 78, 0.1)), url(${heroImage})`,
+            md: `linear-gradient(to bottom right, rgba(9, 106, 56, 0.3), rgba(207, 183, 78, 0.1)), url(${heroImage2})`,
+            xs: `linear-gradient(to bottom right, rgba(9, 106, 56, 0.3), rgba(207, 183, 78, 0.1)), url(${heroImage})`,
           },
           backgroundSize: "contain",
           backgroundPosition: "center",
