@@ -1,0 +1,9 @@
+.link {
+    text-decoration: none;
+    color: #978030;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.06);
+    }
+}
